@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC6A4951FA5CC5B076942EA /* Pods_HavasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DF1ED188E44C2FA07378C3 /* Pods_HavasTests.framework */; };
+		224923F70018BD6DDBB75F49 /* Pods_Havas_HavasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C062CD86FC22B34A6378C355 /* Pods_Havas_HavasUITests.framework */; };
+		2A72227835EACE6E026A0D46 /* Pods_Havas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3B923810CFB703E9714E53 /* Pods_Havas.framework */; };
+		661365C6262238B2002E4A68 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661365C5262238B2002E4A68 /* PostTableViewCell.swift */; };
+		661365D52622C86D002E4A68 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661365D42622C86D002E4A68 /* Localizable.strings */; };
+		66836A40262360CA005CE897 /* PostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66836A3E262360CA005CE897 /* PostDetailViewController.m */; };
+		66836A45262360E8005CE897 /* PostDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66836A44262360E8005CE897 /* PostDetail.storyboard */; };
 		66C0CA392621607200055BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA382621607200055BEC /* AppDelegate.swift */; };
 		66C0CA3B2621607200055BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA3A2621607200055BEC /* SceneDelegate.swift */; };
 		66C0CA3D2621607200055BEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA3C2621607200055BEC /* ViewController.swift */; };
@@ -15,6 +22,24 @@
 		66C0CA452621607300055BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C0CA432621607300055BEC /* LaunchScreen.storyboard */; };
 		66C0CA502621607400055BEC /* HavasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA4F2621607400055BEC /* HavasTests.swift */; };
 		66C0CA5B2621607400055BEC /* HavasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA5A2621607400055BEC /* HavasUITests.swift */; };
+		66C0CA6C262160CB00055BEC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 66C0CA6B262160CB00055BEC /* Podfile */; };
+		66C0CA7E262162EE00055BEC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA7D262162EE00055BEC /* Post.swift */; };
+		66C0CA872622049A00055BEC /* PostInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA862622049A00055BEC /* PostInteractor.swift */; };
+		66C0CA962622050600055BEC /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA902622050600055BEC /* BaseInteractor.swift */; };
+		66C0CA982622050600055BEC /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA922622050600055BEC /* BasePresenter.swift */; };
+		66C0CA992622050600055BEC /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA932622050600055BEC /* BaseRouter.swift */; };
+		66C0CA9A2622050600055BEC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CA942622050600055BEC /* BaseView.swift */; };
+		66C0CAA8262205C100055BEC /* PostRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CAA7262205C100055BEC /* PostRepository.swift */; };
+		66C0CAAD2622166C00055BEC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CAAC2622166C00055BEC /* Store.swift */; };
+		66C0CABF2622282E00055BEC /* PosstDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CAB32622282E00055BEC /* PosstDetailRouter.swift */; };
+		66C0CAC02622282E00055BEC /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CAB42622282E00055BEC /* PostDetailPresenter.swift */; };
+		66C0CAC22622282E00055BEC /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CAB62622282E00055BEC /* PostDetailView.swift */; };
+		66C0CAC42622282E00055BEC /* PostListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CAB92622282E00055BEC /* PostListRouter.swift */; };
+		66C0CAC62622282F00055BEC /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CABB2622282E00055BEC /* PostListPresenter.swift */; };
+		66C0CAC72622282F00055BEC /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CABC2622282E00055BEC /* PostListViewController.swift */; };
+		66C0CAC82622282F00055BEC /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CABD2622282E00055BEC /* PostListView.swift */; };
+		66C0CAD02622283900055BEC /* PostApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0CACE2622283900055BEC /* PostApiRepository.swift */; };
+		66C0CAFD262229BE00055BEC /* PostList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C0CAFC262229BE00055BEC /* PostList.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C0CBFA808EFFE070C32E55E /* Pods-Havas-HavasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havas-HavasUITests.debug.xcconfig"; path = "Target Support Files/Pods-Havas-HavasUITests/Pods-Havas-HavasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		18365C593E05027CF8670A97 /* Pods-Havas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havas.debug.xcconfig"; path = "Target Support Files/Pods-Havas/Pods-Havas.debug.xcconfig"; sourceTree = "<group>"; };
+		2C16887AD29674EA38CD947B /* Pods-Havas-HavasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havas-HavasUITests.release.xcconfig"; path = "Target Support Files/Pods-Havas-HavasUITests/Pods-Havas-HavasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C773997E3B06D0147C12EE0 /* Pods-Havas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havas.release.xcconfig"; path = "Target Support Files/Pods-Havas/Pods-Havas.release.xcconfig"; sourceTree = "<group>"; };
+		661365C5262238B2002E4A68 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		661365D42622C86D002E4A68 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		66836A3D262360CA005CE897 /* Havas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Havas-Bridging-Header.h"; sourceTree = "<group>"; };
+		66836A3E262360CA005CE897 /* PostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDetailViewController.m; sourceTree = "<group>"; };
+		66836A3F262360CA005CE897 /* PostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDetailViewController.h; sourceTree = "<group>"; };
+		66836A44262360E8005CE897 /* PostDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostDetail.storyboard; sourceTree = "<group>"; };
 		66C0CA352621607200055BEC /* Havas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Havas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C0CA382621607200055BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66C0CA3A2621607200055BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +84,29 @@
 		66C0CA562621607400055BEC /* HavasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C0CA5A2621607400055BEC /* HavasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavasUITests.swift; sourceTree = "<group>"; };
 		66C0CA5C2621607400055BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C0CA6B262160CB00055BEC /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66C0CA7D262162EE00055BEC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		66C0CA862622049A00055BEC /* PostInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractor.swift; sourceTree = "<group>"; };
+		66C0CA902622050600055BEC /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		66C0CA922622050600055BEC /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		66C0CA932622050600055BEC /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		66C0CA942622050600055BEC /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		66C0CAA7262205C100055BEC /* PostRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRepository.swift; sourceTree = "<group>"; };
+		66C0CAAC2622166C00055BEC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		66C0CAB32622282E00055BEC /* PosstDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosstDetailRouter.swift; sourceTree = "<group>"; };
+		66C0CAB42622282E00055BEC /* PostDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
+		66C0CAB62622282E00055BEC /* PostDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		66C0CAB92622282E00055BEC /* PostListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListRouter.swift; sourceTree = "<group>"; };
+		66C0CABB2622282E00055BEC /* PostListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
+		66C0CABC2622282E00055BEC /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		66C0CABD2622282E00055BEC /* PostListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		66C0CACE2622283900055BEC /* PostApiRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostApiRepository.swift; sourceTree = "<group>"; };
+		66C0CAFC262229BE00055BEC /* PostList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostList.storyboard; sourceTree = "<group>"; };
+		C062CD86FC22B34A6378C355 /* Pods_Havas_HavasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Havas_HavasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99DAE487F3D6EBB325F6EF3 /* Pods-HavasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavasTests.debug.xcconfig"; path = "Target Support Files/Pods-HavasTests/Pods-HavasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3B923810CFB703E9714E53 /* Pods_Havas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Havas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9394E33AB70A1C553C65E4 /* Pods-HavasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavasTests.release.xcconfig"; path = "Target Support Files/Pods-HavasTests/Pods-HavasTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5DF1ED188E44C2FA07378C3 /* Pods_HavasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A72227835EACE6E026A0D46 /* Pods_Havas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC6A4951FA5CC5B076942EA /* Pods_HavasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224923F70018BD6DDBB75F49 /* Pods_Havas_HavasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +140,13 @@
 		66C0CA2C2621607200055BEC = {
 			isa = PBXGroup;
 			children = (
+				66C0CA6B262160CB00055BEC /* Podfile */,
 				66C0CA372621607200055BEC /* Havas */,
 				66C0CA4E2621607400055BEC /* HavasTests */,
 				66C0CA592621607400055BEC /* HavasUITests */,
 				66C0CA362621607200055BEC /* Products */,
+				671EA770B64938F4E1D4EB61 /* Pods */,
+				B6B3B5D7D9934C8998E893CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +163,13 @@
 		66C0CA372621607200055BEC /* Havas */ = {
 			isa = PBXGroup;
 			children = (
+				66C0CACD2622283900055BEC /* Data */,
+				66C0CAB12622282E00055BEC /* UI */,
+				66C0CA8E2622050600055BEC /* Base */,
+				66C0CA852622046900055BEC /* UseCase */,
+				66C0CA7C262162EE00055BEC /* Model */,
+				66C0CAAC2622166C00055BEC /* Store.swift */,
+				66836A3D262360CA005CE897 /* Havas-Bridging-Header.h */,
 				66C0CA382621607200055BEC /* AppDelegate.swift */,
 				66C0CA3A2621607200055BEC /* SceneDelegate.swift */,
 				66C0CA3C2621607200055BEC /* ViewController.swift */,
@@ -106,6 +177,7 @@
 				66C0CA412621607300055BEC /* Assets.xcassets */,
 				66C0CA432621607300055BEC /* LaunchScreen.storyboard */,
 				66C0CA462621607300055BEC /* Info.plist */,
+				661365D42622C86D002E4A68 /* Localizable.strings */,
 			);
 			path = Havas;
 			sourceTree = "<group>";
@@ -128,6 +200,100 @@
 			path = HavasUITests;
 			sourceTree = "<group>";
 		};
+		66C0CA7C262162EE00055BEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66C0CA7D262162EE00055BEC /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66C0CA852622046900055BEC /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				66C0CA862622049A00055BEC /* PostInteractor.swift */,
+				66C0CAA7262205C100055BEC /* PostRepository.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		66C0CA8E2622050600055BEC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				66C0CA902622050600055BEC /* BaseInteractor.swift */,
+				66C0CA922622050600055BEC /* BasePresenter.swift */,
+				66C0CA932622050600055BEC /* BaseRouter.swift */,
+				66C0CA942622050600055BEC /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		66C0CAB12622282E00055BEC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				66C0CAB22622282E00055BEC /* PostDetail */,
+				66C0CAB82622282E00055BEC /* PostList */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		66C0CAB22622282E00055BEC /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				66836A44262360E8005CE897 /* PostDetail.storyboard */,
+				66836A3F262360CA005CE897 /* PostDetailViewController.h */,
+				66836A3E262360CA005CE897 /* PostDetailViewController.m */,
+				66C0CAB32622282E00055BEC /* PosstDetailRouter.swift */,
+				66C0CAB42622282E00055BEC /* PostDetailPresenter.swift */,
+				66C0CAB62622282E00055BEC /* PostDetailView.swift */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		66C0CAB82622282E00055BEC /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				66C0CAFC262229BE00055BEC /* PostList.storyboard */,
+				66C0CABC2622282E00055BEC /* PostListViewController.swift */,
+				66C0CAB92622282E00055BEC /* PostListRouter.swift */,
+				66C0CABD2622282E00055BEC /* PostListView.swift */,
+				66C0CABB2622282E00055BEC /* PostListPresenter.swift */,
+				661365C5262238B2002E4A68 /* PostTableViewCell.swift */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		66C0CACD2622283900055BEC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66C0CACE2622283900055BEC /* PostApiRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		671EA770B64938F4E1D4EB61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18365C593E05027CF8670A97 /* Pods-Havas.debug.xcconfig */,
+				3C773997E3B06D0147C12EE0 /* Pods-Havas.release.xcconfig */,
+				0C0CBFA808EFFE070C32E55E /* Pods-Havas-HavasUITests.debug.xcconfig */,
+				2C16887AD29674EA38CD947B /* Pods-Havas-HavasUITests.release.xcconfig */,
+				C99DAE487F3D6EBB325F6EF3 /* Pods-HavasTests.debug.xcconfig */,
+				DD9394E33AB70A1C553C65E4 /* Pods-HavasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6B3B5D7D9934C8998E893CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD3B923810CFB703E9714E53 /* Pods_Havas.framework */,
+				C062CD86FC22B34A6378C355 /* Pods_Havas_HavasUITests.framework */,
+				F5DF1ED188E44C2FA07378C3 /* Pods_HavasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66C0CA5F2621607400055BEC /* Build configuration list for PBXNativeTarget "Havas" */;
 			buildPhases = (
+				DDE29404F72FE4C826A96364 /* [CP] Check Pods Manifest.lock */,
 				66C0CA312621607200055BEC /* Sources */,
 				66C0CA322621607200055BEC /* Frameworks */,
 				66C0CA332621607200055BEC /* Resources */,
+				593DB75FF64694836AFA4D37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66C0CA622621607400055BEC /* Build configuration list for PBXNativeTarget "HavasTests" */;
 			buildPhases = (
+				899F97EACCE0D8DAB156AD9D /* [CP] Check Pods Manifest.lock */,
 				66C0CA472621607400055BEC /* Sources */,
 				66C0CA482621607400055BEC /* Frameworks */,
 				66C0CA492621607400055BEC /* Resources */,
@@ -170,9 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66C0CA652621607400055BEC /* Build configuration list for PBXNativeTarget "HavasUITests" */;
 			buildPhases = (
+				348BBFDF4BD8916B1ECD44DA /* [CP] Check Pods Manifest.lock */,
 				66C0CA522621607400055BEC /* Sources */,
 				66C0CA532621607400055BEC /* Frameworks */,
 				66C0CA542621607400055BEC /* Resources */,
+				0AF8F7C4BE2007561ADB770C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +366,7 @@
 				TargetAttributes = {
 					66C0CA342621607200055BEC = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					66C0CA4A2621607400055BEC = {
 						CreatedOnToolsVersion = 12.4;
@@ -232,8 +404,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C0CA452621607300055BEC /* LaunchScreen.storyboard in Resources */,
+				661365D52622C86D002E4A68 /* Localizable.strings in Resources */,
 				66C0CA422621607300055BEC /* Assets.xcassets in Resources */,
+				66836A45262360E8005CE897 /* PostDetail.storyboard in Resources */,
+				66C0CA6C262160CB00055BEC /* Podfile in Resources */,
 				66C0CA402621607200055BEC /* Main.storyboard in Resources */,
+				66C0CAFD262229BE00055BEC /* PostList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +429,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AF8F7C4BE2007561ADB770C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havas-HavasUITests/Pods-Havas-HavasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havas-HavasUITests/Pods-Havas-HavasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Havas-HavasUITests/Pods-Havas-HavasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348BBFDF4BD8916B1ECD44DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Havas-HavasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		593DB75FF64694836AFA4D37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havas/Pods-Havas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Havas/Pods-Havas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Havas/Pods-Havas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		899F97EACCE0D8DAB156AD9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HavasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE29404F72FE4C826A96364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Havas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66C0CA312621607200055BEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66836A40262360CA005CE897 /* PostDetailViewController.m in Sources */,
+				66C0CA982622050600055BEC /* BasePresenter.swift in Sources */,
+				66C0CAA8262205C100055BEC /* PostRepository.swift in Sources */,
+				66C0CAC62622282F00055BEC /* PostListPresenter.swift in Sources */,
+				66C0CAC02622282E00055BEC /* PostDetailPresenter.swift in Sources */,
+				66C0CAC82622282F00055BEC /* PostListView.swift in Sources */,
 				66C0CA3D2621607200055BEC /* ViewController.swift in Sources */,
 				66C0CA392621607200055BEC /* AppDelegate.swift in Sources */,
+				661365C6262238B2002E4A68 /* PostTableViewCell.swift in Sources */,
+				66C0CA7E262162EE00055BEC /* Post.swift in Sources */,
+				66C0CAC22622282E00055BEC /* PostDetailView.swift in Sources */,
+				66C0CAD02622283900055BEC /* PostApiRepository.swift in Sources */,
+				66C0CAC42622282E00055BEC /* PostListRouter.swift in Sources */,
 				66C0CA3B2621607200055BEC /* SceneDelegate.swift in Sources */,
+				66C0CAC72622282F00055BEC /* PostListViewController.swift in Sources */,
+				66C0CAAD2622166C00055BEC /* Store.swift in Sources */,
+				66C0CA992622050600055BEC /* BaseRouter.swift in Sources */,
+				66C0CA872622049A00055BEC /* PostInteractor.swift in Sources */,
+				66C0CA9A2622050600055BEC /* BaseView.swift in Sources */,
+				66C0CABF2622282E00055BEC /* PosstDetailRouter.swift in Sources */,
+				66C0CA962622050600055BEC /* BaseInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +730,13 @@
 		};
 		66C0CA602621607400055BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18365C593E05027CF8670A97 /* Pods-Havas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KAPBW44UCF;
 				INFOPLIST_FILE = Havas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +745,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Havas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Havas/Havas-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,10 +755,13 @@
 		};
 		66C0CA612621607400055BEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C773997E3B06D0147C12EE0 /* Pods-Havas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = KAPBW44UCF;
 				INFOPLIST_FILE = Havas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +770,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Havas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Havas/Havas-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +779,7 @@
 		};
 		66C0CA632621607400055BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99DAE487F3D6EBB325F6EF3 /* Pods-HavasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +802,7 @@
 		};
 		66C0CA642621607400055BEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9394E33AB70A1C553C65E4 /* Pods-HavasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +825,7 @@
 		};
 		66C0CA662621607400055BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0CBFA808EFFE070C32E55E /* Pods-Havas-HavasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +846,7 @@
 		};
 		66C0CA672621607400055BEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C16887AD29674EA38CD947B /* Pods-Havas-HavasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

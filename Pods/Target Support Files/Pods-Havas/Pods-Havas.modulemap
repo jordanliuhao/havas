@@ -1,0 +1,6 @@
+framework module Pods_Havas {
+  umbrella header "Pods-Havas-umbrella.h"
+
+  export *
+  module * { export * }
+}
